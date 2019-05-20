@@ -16,6 +16,7 @@ public class NoticeDaoImpl implements NoticeDao {
 	@Override
 	public List<Notice> noticeList() {
 		System.out.println("ggg");
+		System.out.println("이윤영");
 		return dao.noticeList();
 		
 	}
